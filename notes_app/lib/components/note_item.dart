@@ -21,6 +21,7 @@ class NoteItem extends StatelessWidget {
         borderRadius: BorderRadius.circular(8),
         boxShadow: [
           BoxShadow(
+            // ignore: deprecated_member_use
             color: Colors.black.withOpacity(0.1),
             blurRadius: 4,
             offset: Offset(0, 2),
