@@ -3,6 +3,8 @@ import '../components/note_item.dart';
 import '../components/note_input_dialog.dart';
 
 class NotesScreen extends StatefulWidget {
+  const NotesScreen({super.key});
+
   @override
   _NotesScreenState createState() => _NotesScreenState();
 }
